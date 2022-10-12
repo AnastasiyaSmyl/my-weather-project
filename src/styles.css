@@ -1,0 +1,129 @@
+body {
+  display: block;
+  font-family: "Grandstander", cursive;
+  color: #5c5470;
+}
+
+th {
+  color: #5c5470;
+}
+
+h2 {
+  text-align: center;
+}
+
+.body {
+  margin-top: 40px;
+  margin: auto;
+  border-radius: 20px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(244, 186, 186) 0%,
+    rgb(194, 157, 231) 90%
+  );
+  box-sizing: border-box;
+  border: solid #bc85de 5px;
+  width: 80%;
+}
+
+.forecas-details {
+  margin: 20px;
+}
+
+.text-center {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.hor {
+  border: none;
+  background-color: blueviolet;
+  color: blueviolet;
+  height: 5px;
+}
+
+.form-control {
+  caret-color: #5c5470;
+  display: block;
+  width: 50%;
+  border: none;
+  margin: auto;
+  padding: 5px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.location-button {
+  caret-color: #5c5470;
+  display: block;
+  width: 50%;
+  border: none;
+  margin: auto;
+  padding: 5px 0;
+  border-radius: 10px;
+  text-align: center;
+  background: #d1a6da;
+  color: #5c5470;
+}
+.location-button:hover {
+  background-color: #bc85df;
+  color: #5c5470;
+}
+
+h3,
+.specification {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+
+h3:first-letter {
+  text-transform: capitalize;
+}
+
+.currently-degrees {
+  font-size: 30px;
+}
+
+.unit-currently-degrees {
+  position: absolute;
+  top: 164px;
+}
+
+.unit-currently-degrees .active {
+  color: #5c5470;
+  cursor: default;
+  text-decoration: none;
+}
+.temp {
+  text-align: center;
+  font-size: 20px;
+}
+
+.col-2,
+.five-days,
+.next-five-days-degrees {
+  text-align: center;
+  margin: 5px auto;
+  padding: auto;
+  font-size: 20px;
+}
+
+.next-five-days-degrees-min {
+  opacity: 0.6;
+}
+
+.source-code {
+  text-align: right;
+  max-width: 77%;
+  margin: auto;
+  display: block;
+}
+
+.source-code-link {
+  color: #5c5470;
+}
+
+.source-code-link:hover {
+  color: #bc85de;
+}
