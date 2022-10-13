@@ -48,6 +48,7 @@ h2 {
   width: 50%;
   border: none;
   margin: auto;
+  margin-top: 10px;
   padding: 5px 0;
   border-radius: 10px;
   text-align: center;
@@ -59,6 +60,7 @@ h2 {
   width: 50%;
   border: none;
   margin: auto;
+  margin-top: 10px;
   padding: 5px 0;
   border-radius: 10px;
   text-align: center;
@@ -87,7 +89,7 @@ h3:first-letter {
 
 .unit-currently-degrees {
   position: absolute;
-  top: 164px;
+  top: 205px;
 }
 
 .unit-currently-degrees .active {
