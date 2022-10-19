@@ -12,7 +12,7 @@ h2 {
   text-align: center;
 }
 
-.body {
+.container {
   margin-top: 40px !important;
   margin: auto;
   border-radius: 20px;
@@ -42,12 +42,26 @@ h2 {
   height: 5px;
 }
 
-.form-control {
+.form-control
+ {
   caret-color: #5c5470;
   display: block;
-  width: 50%;
+  width: 100%;
   border: none;
-  margin: auto;
+  margin: 2%;
+  margin-top: 10px;
+  padding: 5px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-city {
+  color:#5c5470 ;
+  background:#CA8ED1;
+  display: block;
+  width: 100%;
+  border: none;
+  margin: 2%;
   margin-top: 10px;
   padding: 5px 0;
   border-radius: 10px;
@@ -55,20 +69,15 @@ h2 {
 }
 
 .location-button {
-  caret-color: #5c5470;
   display: block;
-  width: 50%;
+  width: 20%;
   border: none;
-  margin: auto;
-  margin-top: 10px;
-  padding: 5px 0;
+  margin: 2%;
+  margin-top: 12px;
+  padding: 7px 7px;
   border-radius: 10px;
   text-align: center;
-  background: #d1a6da;
-  color: #5c5470;
-}
-.location-button:hover {
-  background-color: #bc85df;
+  background: #CA8ED1;
   color: #5c5470;
 }
 
